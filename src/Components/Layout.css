@@ -1,0 +1,29 @@
+.page{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.draw{
+    width: 240px;
+}
+.main{
+    display: flex;
+}
+.active{
+    background-color: #f4f4f4;
+}
+.abar{
+   width: calc(100%-240px); 
+} 
+ .toolbar{
+    height: 90px;
+} 
+.date{
+    flex-grow: 1;
+}
+.appbar{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.avt{
+    margin-left: 10px;
+}
